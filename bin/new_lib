@@ -1,0 +1,15 @@
+#!/bin/bash
+
+lib=${1:-}
+if [[ -z $lib ]]; then
+  echo provide a valid name
+# elif [[ -d $lib ]]; then
+#   echo $lib: dir exists
+else
+  echo ng new $lib -p ngk --style scss
+  cd $lib
+  echo g create angeeks/$lib
+  echo wait for remote ready
+  sleep 3
+  echo setup_travis
+fi

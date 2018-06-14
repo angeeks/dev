@@ -1,20 +1,39 @@
-# Plans
+# Roadmap
 
-## [Chart](angeeks/chart)
+## [x] chart
+## [x] gtag
+## [x] globals
+## [x] testing
+## [x] marked (marked)
+## [x] fullscreen (screenfull)
+## [x] googlemaps 
+## [ ] datetime-fns or luxon
+## [ ] logger(winston)
+## [ ] modal
+## [ ] popout
+## [ ] select
+## [ ] tooltip
+## [ ] video
+## [ ] storage
+## [ ] color
+## [ ] web3js
+## [ ] file
+## [ ] slides
+## [ ] auth
+## [ ] firebase
+## [ ] aws
+## [ ] cash flows
 
-## [Gtag](angeeks/gtag)
+# Internals
 
-## [Gmap](angeeks/gmap)
-
-## [Globals](angeeks/globals)
-
-## [Testing](angeeks/testing)
-
-## [Coloring](angeeks/coloring)
-
-## Internals
-
-### [DemoKit](angeeks/chart)
-
-### [Org page](angeeks/angeeks.github.io)
+## [x] angeeks.github.io
+## [x] gh-layout
+  - [x] shared components
+  - [x] shared data
+  - shared configs
+## utils
+  - [x] direnv
+  - [x] travis setup
+  - [x] github setup
+  - npm publish checkers
 
